@@ -1,6 +1,6 @@
 {
   "name": "hooktunnel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI tool for proxying Git provider webhooks (GitHub, GitLab, Bitbucket) in internal or intranet environments. Automatically forwards webhook messages using ngrok, enabling seamless development and testing.",
   "keywords": [
     "ngrok",
