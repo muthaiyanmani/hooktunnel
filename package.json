@@ -1,0 +1,35 @@
+{
+  "name": "hooktunnel",
+  "version": "0.0.1",
+  "description": "A simple CLI tool for proxying Git provider webhooks (GitHub, GitLab, Bitbucket) in internal or intranet environments. Automatically forwards webhook messages using ngrok, enabling seamless development and testing.",
+  "keywords": [
+    "ngrok",
+    "tunneling",
+    "webhook",
+    "proxy"
+  ],
+  "homepage": "https://github.com/muthaiyanmani/hook-tunnel#readme",
+  "bugs": {
+    "url": "https://github.com/muthaiyanmani/hook-tunnel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muthaiyanmani/hook-tunnel.git"
+  },
+  "license": "ISC",
+  "author": "muthaiyanmani",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "hooktunnel": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ngrok/ngrok": "^1.4.1",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0",
+    "http-proxy": "^1.18.1"
+  }
+}
