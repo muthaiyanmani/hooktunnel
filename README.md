@@ -46,14 +46,3 @@ hooktunnel --token YOUR_AUTH_TOKEN --port 3000 --target http://localhost:3000
 ## Contributing  
 
 We welcome contributions! If you find an issue or have a feature request, please open an [issue](https://github.com/muthaiyanmani/hook-tunnel/issues) on GitHub.  
-
----  
-
-### **Suggestions for Improvement**  
-1. **Add a Logo** – A small ASCII logo or an image makes it more appealing.  
-2. **Include a "Features" Section** – Briefly highlight key features like logging, retry mechanisms, or security.  
-3. **Add Examples for Different Git Providers** – Show how to configure GitHub, GitLab, and Bitbucket webhooks.  
-4. **Usage GIF or Screenshot** – A visual example would make setup easier.  
-5. **Versioning & Updates** – Mention if you plan to maintain or update HookTunnel regularly.  
-
-Let me know if you want me to refine anything further! 🚀
