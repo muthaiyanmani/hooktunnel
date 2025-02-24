@@ -8,7 +8,6 @@ const ngrok = require('@ngrok/ngrok');
 const { logInfo, logError } = require('./utils');
 
 console.log(`\n${figlet.textSync('HookTunnel')}`);
-console.log(` use --help to see the available options\n`);
 
 program
     .option('--token <token>', 'NGROK auth token. https://dashboard.ngrok.com/get-started/your-authtoken')
@@ -18,13 +17,17 @@ program
     .option('--help', 'Display the help information');
 
 program.parse(process.argv);
-
 const options = program.opts();
 
 const ngrokAuthToken = options.token || process.env.HC_NGROK_AUTH_TOKEN;
 let serverPort = options.port || process.env.HC_PORT;
 const targetUrl = options.target || process.env.HC_TARGET_URL;
 const ngrokDomain = options.domain || process.env.HC_NGROK_DOMAIN;
+
+if (!Object.keys(options).length || options.help) {
+    console.log(program.help());
+    process.exit(0);
+}
 
 if (!ngrokAuthToken) {
     console.error('❗️ NGROK_AUTH_TOKEN is required.');
