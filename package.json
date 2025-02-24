@@ -8,13 +8,13 @@
     "webhook",
     "proxy"
   ],
-  "homepage": "https://github.com/muthaiyanmani/hook-tunnel#readme",
+  "homepage": "https://github.com/muthaiyanmani/hooktunnel#readme",
   "bugs": {
-    "url": "https://github.com/muthaiyanmani/hook-tunnel/issues"
+    "url": "https://github.com/muthaiyanmani/hooktunnel/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muthaiyanmani/hook-tunnel.git"
+    "url": "git+https://github.com/muthaiyanmani/hooktunnel.git"
   },
   "license": "ISC",
   "author": "muthaiyanmani",
