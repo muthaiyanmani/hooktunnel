@@ -45,4 +45,4 @@ hooktunnel --token YOUR_AUTH_TOKEN --port 3000 --target http://localhost:3000
 
 ## Contributing  
 
-We welcome contributions! If you find an issue or have a feature request, please open an [issue](https://github.com/muthaiyanmani/hook-tunnel/issues) on GitHub.  
+We welcome contributions! If you find an issue or have a feature request, please open an [issue](https://github.com/muthaiyanmani/hooktunnel/issues) on GitHub.  
